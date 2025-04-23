@@ -1,21 +1,5 @@
-# End-to-end-Machine-Learning-Project-with-MLflow
 
-
-## Workflows
-
-1. Update config.yaml
-2. Update schema.yaml
-3. Update params.yaml
-4. Update the entity
-5. Update the configuration manager in src config
-6. Update the components
-7. Update the pipeline 
-8. Update the main.py
-9. Update the app.py
-
-
-
-### STEP 01- Create a conda environment after opening the repository
+### STEP 01- Create a python environment.
 
 ```bash
 python3 -m venv env
@@ -28,6 +12,19 @@ source venv/bin/activate
 ```bash
 pip install -r requirements.txt
 ```
+
+## Workflows - to be updated in sequence
+
+1. Update config/config.yaml
+2. Update schema.yaml
+3. Update params.yaml
+4. Update the src/mlProject/entity
+5. Update the configuration manager in src/mlProject/config
+6. Update the src/mlProject/components
+7. Update the src/mlProject/pipeline 
+8. Update the main.py
+9. Update the app.py
+
 
 
 ```bash
