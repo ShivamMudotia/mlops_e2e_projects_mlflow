@@ -1,0 +1,34 @@
+# pandas 
+# mlflow==2.2.2
+# notebook
+# numpy
+# scikit-learn
+# matplotlib
+# python-box==6.0.2
+# pyYAML
+# tqdm
+# ensure==1.0.2
+# joblib
+# types-PyYAML
+# Flask
+# Flask-Cors
+-e .
+
+# -e . --> This looks for setup.py in the folder
+
+pandas 
+mlflow
+notebook
+jupyter
+numpy
+scikit-learn
+matplotlib
+python-box
+pyYAML
+tqdm
+ensure
+joblib
+types-PyYAML
+Flask
+Flask-Cors
+-e .
