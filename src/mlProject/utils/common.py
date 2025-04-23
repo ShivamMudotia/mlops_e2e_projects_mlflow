@@ -11,7 +11,7 @@ from typing import Any
 
 
 
-@ensure_annotations
+@ensure_annotations ## This is a decorator that ensures all function parameters and/or return values have type annotations. It’s often used as a type safety check during development.
 def read_yaml(path_to_yaml: Path) -> ConfigBox:
     """reads yaml file and returns
 
