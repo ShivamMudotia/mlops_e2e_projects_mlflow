@@ -48,19 +48,17 @@ python app.py
 ### dagshub
 [dagshub](https://dagshub.com/)
 
-# Create a repo. Add github repo
+ - Create a repo
+ - Add github repo
+ - remote - expermients -> fetch MLFlow tracking remote URL (used below)
+ - create API key (used below)
 
 MLFLOW_TRACKING_URI=https://dagshub.com/devops21081983/mlflow-poc.mlflow \
 MLFLOW_TRACKING_USERNAME=devops21081983 \
 MLFLOW_TRACKING_PASSWORD=97de46ea6dd72e7f778dd330e4ff91fd83441411 \
 
+## 
 
-
-
-
-Run below to export as env variables, before running app locally, eles app won't log to mlflow.
-
-python3 app.py
 
 ```bash
 
@@ -69,8 +67,20 @@ export MLFLOW_TRACKING_USERNAME=devops21081983
 export MLFLOW_TRACKING_PASSWORD=97de46ea6dd72e7f778dd330e4ff91fd83441411
 
 ```
+Run above  to export as env variables, before running app locally, eles app won't log to mlflow.
+
+python3 app.py
+
+##
+
+- http://127.0.0.1:8080/train - to train
+- change paramater in params.yaml abd retrigger taining
+- repeat couple of times
+- check mlflow dashborad for experimnets and results
+- select multiple experiments to compare results to find best model paramaters.
 
 
+## create docker image
 
 # AWS-CICD-Deployment-with-Github-Actions
 
