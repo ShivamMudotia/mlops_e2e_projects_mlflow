@@ -1,5 +1,6 @@
 artifacts_root: artifacts
 
+# If data URL need to be changed. It can be chanegs from here, so that it's not hardcoded.
 
 data_ingestion:
   root_dir: artifacts/data_ingestion
@@ -35,6 +36,7 @@ model_evaluation:
   test_data_path: artifacts/data_transformation/test.csv
   model_path: artifacts/model_trainer/model.joblib
   metric_file_name: artifacts/model_evaluation/metrics.json
+  mlflow_uri: "https://dagshub.com/devops21081983/mlflow-poc.mlflow"
 
 
 

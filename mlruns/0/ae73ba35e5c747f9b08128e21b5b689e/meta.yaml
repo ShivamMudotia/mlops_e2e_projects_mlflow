@@ -1,0 +1,15 @@
+artifact_uri: file:///home/shivam/pocs/mlops_e2e_projects_mlflow/mlruns/0/ae73ba35e5c747f9b08128e21b5b689e/artifacts
+end_time: 1745472691987
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ae73ba35e5c747f9b08128e21b5b689e
+run_name: thoughtful-eel-429
+run_uuid: ae73ba35e5c747f9b08128e21b5b689e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1745472689418
+status: 3
+tags: []
+user_id: shivam

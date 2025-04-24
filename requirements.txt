@@ -12,7 +12,7 @@
 # types-PyYAML
 # Flask
 # Flask-Cors
--e .
+# -e .
 
 # -e . --> This looks for setup.py in the folder
 

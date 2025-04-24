@@ -1,0 +1,15 @@
+artifact_uri: file:///home/shivam/pocs/mlops_e2e_projects_mlflow/mlruns/0/7361df7ece444da5b4f61bdda5ab05f3/artifacts
+end_time: 1745468850668
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 7361df7ece444da5b4f61bdda5ab05f3
+run_name: polite-lark-125
+run_uuid: 7361df7ece444da5b4f61bdda5ab05f3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1745468848365
+status: 3
+tags: []
+user_id: shivam

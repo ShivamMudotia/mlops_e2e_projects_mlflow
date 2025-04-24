@@ -48,20 +48,25 @@ python app.py
 ### dagshub
 [dagshub](https://dagshub.com/)
 
-MLFLOW_TRACKING_URI=https://dagshub.com/entbappy/End-to-end-Machine-Learning-Project-with-MLflow.mlflow \
-MLFLOW_TRACKING_USERNAME=entbappy \
-MLFLOW_TRACKING_PASSWORD=6824692c47a369aa6f9eac5b10041d5c8edbcef0 \
-python script.py
+# Create a repo. Add github repo
 
-Run this to export as env variables:
+MLFLOW_TRACKING_URI=https://dagshub.com/devops21081983/mlflow-poc.mlflow \
+MLFLOW_TRACKING_USERNAME=devops21081983 \
+MLFLOW_TRACKING_PASSWORD=97de46ea6dd72e7f778dd330e4ff91fd83441411 \
+
+
+
+
+
+Run below to export as env variables, before running app locally, eles app won't log to mlflow.
+
+python3 app.py
 
 ```bash
 
-export MLFLOW_TRACKING_URI=https://dagshub.com/entbappy/End-to-end-Machine-Learning-Project-with-MLflow.mlflow
-
-export MLFLOW_TRACKING_USERNAME=entbappy 
-
-export MLFLOW_TRACKING_PASSWORD=6824692c47a369aa6f9eac5b10041d5c8edbcef0
+export MLFLOW_TRACKING_URI=https://dagshub.com/devops21081983/mlflow-poc.mlflow
+export MLFLOW_TRACKING_USERNAME=devops21081983 
+export MLFLOW_TRACKING_PASSWORD=97de46ea6dd72e7f778dd330e4ff91fd83441411
 
 ```
 

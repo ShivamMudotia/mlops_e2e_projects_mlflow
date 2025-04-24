@@ -1,0 +1,15 @@
+artifact_uri: file:///home/shivam/pocs/mlops_e2e_projects_mlflow/mlruns/0/213e2b5fe1ed4fe398528a6ad1e65694/artifacts
+end_time: 1745472551070
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 213e2b5fe1ed4fe398528a6ad1e65694
+run_name: welcoming-elk-499
+run_uuid: 213e2b5fe1ed4fe398528a6ad1e65694
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1745472548556
+status: 3
+tags: []
+user_id: shivam

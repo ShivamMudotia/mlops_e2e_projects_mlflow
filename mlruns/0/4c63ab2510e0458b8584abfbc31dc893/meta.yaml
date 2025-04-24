@@ -1,0 +1,15 @@
+artifact_uri: file:///home/shivam/pocs/mlops_e2e_projects_mlflow/mlruns/0/4c63ab2510e0458b8584abfbc31dc893/artifacts
+end_time: 1745467507353
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 4c63ab2510e0458b8584abfbc31dc893
+run_name: crawling-gull-408
+run_uuid: 4c63ab2510e0458b8584abfbc31dc893
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1745467504995
+status: 3
+tags: []
+user_id: shivam
