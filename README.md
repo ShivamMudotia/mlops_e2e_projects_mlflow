@@ -55,7 +55,7 @@ python app.py
 
 MLFLOW_TRACKING_URI=https://dagshub.com/devops21081983/mlflow-poc.mlflow \
 MLFLOW_TRACKING_USERNAME=devops21081983 \
-MLFLOW_TRACKING_PASSWORD=97de46ea6dd72e7f778dd330e4ff91fd83441411 \
+MLFLOW_TRACKING_PASSWORD=<API_KEY> \
 
 ## 
 
@@ -64,7 +64,7 @@ MLFLOW_TRACKING_PASSWORD=97de46ea6dd72e7f778dd330e4ff91fd83441411 \
 
 export MLFLOW_TRACKING_URI=https://dagshub.com/devops21081983/mlflow-poc.mlflow
 export MLFLOW_TRACKING_USERNAME=devops21081983 
-export MLFLOW_TRACKING_PASSWORD=97de46ea6dd72e7f778dd330e4ff91fd83441411
+export MLFLOW_TRACKING_PASSWORD=<API_KEY>
 
 ```
 Run above  to export as env variables, before running app locally, eles app won't log to mlflow.
@@ -80,7 +80,13 @@ python3 app.py
 - select multiple experiments to compare results to find best model paramaters.
 
 
-## create docker image
+## create docker image and deploy
+ - docker build -t mshivam21/mlops_e2e_projects_mlflow .
+ - docker login
+ - docker push mshivam21/mlops_e2e_projects_mlflow
+
+## Also can check .github/workflows/main.yaml to sue guthub actions
+
 
 # AWS-CICD-Deployment-with-Github-Actions
 
@@ -115,7 +121,7 @@ python3 app.py
 
 	
 ## 3. Create ECR repo to store/save docker image
-    - Save the URI: 566373416292.dkr.ecr.ap-south-1.amazonaws.com/mlproj
+    - Save the URI: <aws_acct_num>.dkr.ecr.ap-south-1.amazonaws.com/mlproj
 
 	
 ## 4. Create EC2 machine (Ubuntu) 
@@ -151,7 +157,7 @@ python3 app.py
 
     AWS_REGION = us-east-1
 
-    AWS_ECR_LOGIN_URI = demo>>  566373416292.dkr.ecr.ap-south-1.amazonaws.com
+    AWS_ECR_LOGIN_URI = demo>>  <aws_acct_num>.dkr.ecr.ap-south-1.amazonaws.com
 
     ECR_REPOSITORY_NAME = simple-app
 
