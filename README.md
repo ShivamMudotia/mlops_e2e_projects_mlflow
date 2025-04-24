@@ -81,9 +81,11 @@ python3 app.py
 
 
 ## create docker image and deploy
+ - update MLFLOW_TRACKING_PASSWORD or pass/override it as paramater
  - docker build -t mshivam21/mlops_e2e_projects_mlflow .
  - docker login
  - docker push mshivam21/mlops_e2e_projects_mlflow
+ 
 
 ## Also can check .github/workflows/main.yaml to sue guthub actions
 
