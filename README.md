@@ -1,3 +1,7 @@
+# Data ingestion, transformation, validation, evaluation is done locally.
+  ## Can be don n an EC2 machines
+  ## Model is hosted/served using flask
+# The results are sent to mlflow (which is hosted oj dagshub)
 
 ### STEP 01- Create a python environment.
 
